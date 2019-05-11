@@ -1,0 +1,12 @@
+CREATE DATABASE dbempleados;
+
+USE dbempleados;
+
+CREATE TABLE empleados( 
+	cedula_empleado INT NOT NULL,
+	nombre_empleado CHAR(100) NOT NULL,
+	direccion_empleado CHAR(100) NOT NULL,
+	email_empleado CHAR(100) NOT NULL,
+	celular_empleado INT NOT NULL,
+	CONSTRAINT PRIMARY KEY ( cedula_empleado )
+);
